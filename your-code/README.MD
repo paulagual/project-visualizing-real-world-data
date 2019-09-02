@@ -28,53 +28,33 @@ The dataset is from Kaggle. It's a dataset of the detailed attributes for every 
 
 ## Workflow
 
-### Find an API and a Website
-* I tried many Fortnite apis, but as there is no official api, the apis where working unevenly.
-* Then I found the IGBD and I liked the API and selected it. They do not have the documentation specificaly for Pyhton, but they have a pretty nice documentation and a not so much complicated way of giving the free access tokens.
+### Find a dataset
+* I tried different datasets, but some needed to much work cleaning to be able to use it.
+* Finally I chosed the FIFA19 Players data from the FIFA19 videogame. With data from more than 18k soccer players over the World at Kaggle.
 
-### Define the info I need to retrieve
+### Cleaning and setting the data
+* I spent a little bit of the time of the project cleaning and setting the data to be able to visualize.
 
-I need to retrieve the 50 most popular games, accorfing to IGDB. And the for each game, retrieve the social links info from their game.
+### Visualization
 
-### API
-
-* I test the API with a simple endpoint request
-* Then I select the parameters and endpoints I want to retrieve
-* I retrieve the info and put it on a data frame
-* Then a create another dataframe **games** with just the info I needed.
-
-### WEB
-
-* I test the webscaping parsing proces with the first game
-* Then I create a function to retrieve all the urls info about the social links
-* I create a list with all the different social sites
-* I create a data frame with the url + the list of social sites as columns
-* Put all the info in the **social_df** with each game in a row
-
-### MERGE
-
-* Using the 'url' I merge both dataframes in a **final_games**
-
-### Dataset
-
-I export the dataframe in a csv on the output folder
+* I have used the dataset create differnt types of graphs for the visualization.
 
 <a name="results"></a>
 
 ## Results
 
-A CSV with the 50 most popular games and its social links
+A serties of graphs are the result of the Project. As well as the project, to be presented in class.
 
 <a name="obstacles"></a>
 
 ## Obstacles
 
-The Apis are quite difficult to use, as some have a lot of restrictions and other do not work precisely. 
+I think the difficulty is to be able to find my own objective into the data, as the project is open and the possibilities to create graphs are infinite.
 
 <a name="lessons"></a>
 
 ## Lessons Learned
 
-* I have learned to understand much better how to use an API
-* I have leaned to test the API to check if it can do what I want prior to start programming
-* I have leaned to create a function to parse similar urls
+* I have learned to choose more wisely a dataset, and what I can expect from a certain dataset from Kaggle.
+* I have leaned that the cleaning is and will always be part of the project, whatever the aim of the project.
+* I have leaned (a littel bit more) to choose the graph to be used depending on the data.

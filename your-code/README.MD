@@ -45,6 +45,8 @@ The dataset is from Kaggle. It's a dataset of the detailed attributes for every 
 
 A serties of graphs are the result of the Project. As well as the project, to be presented in class.
 
+Some more graphs have been added for the purpose of the class presentation.
+
 <a name="obstacles"></a>
 
 ## Obstacles
